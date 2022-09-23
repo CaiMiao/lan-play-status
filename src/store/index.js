@@ -75,7 +75,7 @@ export default createStore({
 
   actions: {
     fetchMonitors({ commit }) {
-      return fetch("https://api.uptimerobot.com/v2/getMonitors", {
+      return fetch("https://api.uptimerobot.localhost/v2/getMonitors", {
         method: "POST",
         mode: "cors",
         cache: "no-cache",

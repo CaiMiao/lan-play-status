@@ -3,23 +3,15 @@
     <div class="nav">
       <router-link to="/">{{ $t("navigation.home") }}</router-link> |
       <router-link to="/lobbies">{{ $t("navigation.lobbies") }}</router-link> |
-      <router-link to="/games-switch">{{
-        $t("navigation.gamesSwitch")
-      }}</router-link>
-      |
-      <router-link to="/games-ps4">{{ $t("navigation.gamesPS4") }}</router-link>
-      |
       <router-link to="/download">{{ $t("navigation.download") }}</router-link>
       |
       <router-link to="/install-switch">{{
         $t("navigation.installSwitch")
       }}</router-link>
       |
-      <router-link to="/install-ps4">{{
-        $t("navigation.installPS4")
-      }}</router-link>
-      |
       <router-link to="/about">{{ $t("navigation.about") }}</router-link>
+      |
+      <a href="http://ldm.346lab.org">lan-play.com Mirror</a>
     </div>
     <router-view />
   </div>

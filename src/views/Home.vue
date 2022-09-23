@@ -14,18 +14,15 @@
       </h1>
     </div>
     <Servers />
-    <Communities />
   </div>
 </template>
 
 <script>
 import Servers from "@/components/servers/Servers.vue";
-import Communities from "@/components/communities/Communities.vue";
 
 export default {
   components: {
-    Servers,
-    Communities
+    Servers
   }
 };
 </script>
